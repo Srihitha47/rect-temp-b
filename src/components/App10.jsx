@@ -11,6 +11,9 @@ export default function App10() {
     useEffect(()=>{
         setTotal(Number(v1)*Number(v2));
     },[v2]);
+    useEffect(()=>{
+        setTotal(Number(v1)*Number(v2));
+    },[v1,v2]);
     return (
         <div>
       
