@@ -1,0 +1,30 @@
+/* /* .App-App11-Container{
+    background-color: pink;
+}
+.App-App11-Row{
+    display: flex;
+    justify-content: center;
+}
+.App-App11-Box{
+    width: 400px;
+    text-align: center;
+    justify-content: center;
+} */
+
+.App-App12-Container {
+    background-color: pink;
+}
+
+.App-App12-Row {
+    display: flex;
+    justify-content: center;
+}
+
+.App-App12-Box {
+    width: 400px;
+    text-align: center;
+    background-color: white;
+    border-radius: 20px;
+    margin: 20px;
+    padding: 20px;
+} 
