@@ -18,7 +18,7 @@ export default function App8() {
     <div>
       <input
         type="number"
-        onChange={(e) => setValue(e.target.value)}
+        onChange={(e) => setValue(e.target.value)}//to caputure the value in textbox and to update value of Value
         placeholder="Enter Amount"
       ></input>
       <button onClick={handleAdd}>Add</button>
