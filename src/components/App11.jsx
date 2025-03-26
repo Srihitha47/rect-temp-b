@@ -16,13 +16,23 @@ export default function App11() {
 
     const increment = () => {
         setCount(count+1)
+        if(count >0 && count1 <10){
         setMessage("Well done!")
+        }
         
         
       };
       const decrement = () => {
-        count1 < 10 && setCount1(count1+1)
+        if(count1 === 10){
+            setMessage("Game Over!!")
+        }
+
+        else if(count1 >= 0  && count1 <= 9){
+            setCount1(count1+1)
         setMessage("Better luck Next Time!!")
+        }
+        
+
        
       };
       return (
