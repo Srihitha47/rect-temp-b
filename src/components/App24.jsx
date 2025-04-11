@@ -1,26 +1,30 @@
 import React from 'react';
 
-
-function Greeting({ name, message }) {
+function Person(props) {
   return (
     <div>
-      <h2>Hello, {name}!</h2>
-      <p>{message}</p>
+      <p>Name: {props.name}</p>
+      <p>EyeColor: {props.eyeColor}</p>
+      <p>Age: {props.age}</p>
+      <hr />
     </div>
   );
 }
 
-
-Greeting.defaultProps = {
-  name: "EveryOne",
-  message: "Welcome to our website!"
+Person.defaultProps = {
+  name: "Rahul",
+  eyeColor: "deepblue",
+  age: "45"
 };
 
-export default function App() {
+export default function App24() {
   return (
     <div>
-      <Greeting name="Srihitha" />
-      <Greeting />
+       <Person name="Kapil" eyeColor="blue" age="23" /> 
+      {/* <Person name="Sachin" eyeColor="blue" />
+      <Person name="Nikhil" age="23" />
+      <Person eyeColor="green" age="23" /> */}
+      
     </div>
   );
 }
