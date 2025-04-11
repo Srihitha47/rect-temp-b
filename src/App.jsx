@@ -23,6 +23,7 @@ import App20 from "./components/App20";
 import App21 from "./components/App21";
 import App22 from "./components/App22";
 import App23 from "./components/App23";
+import App24 from "./components/App24";
 function App() {
   return (
     <BrowserRouter>
@@ -50,6 +51,7 @@ function App() {
           <Link to="app21" className="box">App21</Link>
           <Link to="app22" className="box">App22</Link>
           <Link to="app23" className="box">App23</Link>
+          <Link to="app24" className="box">App24</Link>
         </div>
         <hr></hr>
         <div>
@@ -78,6 +80,7 @@ function App() {
             <Route path="app21" element={<App21 />} />
             <Route path="app22" element={<App22 />} />
             <Route path="app23" element={<App23 />} />
+            <Route path="app24" element={<App24 />} />
           </Routes>
         </div>
       </div>
